@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+        <style>
+            h1{
+                color: blue;
+            }
+
+            #myID{
+                color: brown;
+            }
+            .myClass{
+                color: black;
+            }
+            body{
+                background-color: pink;
+            }
+            p{
+                color: green;
+                font-size: 20px;
+                font-weight: bold;
+                text-align:center;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading</h1>
+        <p style="color: red;">paragraph</p>
+        <p id="myID">Hello World</p>
+        <br>
+        <p class="myClass">welcome to CSS training</p>
+        <p> dummy text simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        
+
+    </body>
+</html>
