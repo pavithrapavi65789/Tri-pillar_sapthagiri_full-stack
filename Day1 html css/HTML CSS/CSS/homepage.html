@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Layout</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f0f0;
+            margin: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 8px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Projects</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Portfolio Website</p>
+            <button>View</button>
+        </div>
+
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Calculator App</p>
+            <button>View</button>
+        </div>
+
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>Weather App</p>
+            <button>View</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
